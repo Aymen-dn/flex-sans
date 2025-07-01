@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2264.fwid" format="2">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="853" y="54" type="line"/>
+      <point x="853" y="74" type="line"/>
+      <point x="147" y="312" type="line"/>
+      <point x="147" y="292" type="line"/>
+    </contour>
+    <contour>
+      <point x="147" y="480" type="line"/>
+      <point x="853" y="242" type="line"/>
+      <point x="853" y="262" type="line"/>
+      <point x="178" y="488" type="line"/>
+      <point x="178" y="490" type="line"/>
+      <point x="853" y="716" type="line"/>
+      <point x="853" y="736" type="line"/>
+      <point x="147" y="498" type="line"/>
+    </contour>
+  </outline>
+</glyph>

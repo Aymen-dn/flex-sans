@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>uni0101.hwid</key>
+    <string>uni0101.hwid.glif</string>
+    <key>uni0113.hwid</key>
+    <string>uni0113.hwid.glif</string>
+    <key>uni01D8.hwid</key>
+    <string>uni01D_8.hwid.glif</string>
+    <key>uni309B</key>
+    <string>uni309B_.glif</string>
+    <key>uni31A5</key>
+    <string>uni31A_5.glif</string>
+  </dict>
+</plist>

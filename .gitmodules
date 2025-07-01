@@ -1,0 +1,3 @@
+[submodule "sources/flex-sc-src"]
+	path = sources/flex-sc-src
+	url = https://gitee.com/NightFurySL2001/flex-sc

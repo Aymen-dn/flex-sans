@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFE39" format="2">
+  <advance width="1000"/>
+  <anchor x="-199" y="380" name="#rotate"/>
+  <anchor x="-199" y="-120" name="BSB"/>
+  <anchor x="-579" y="380" name="LSB"/>
+  <anchor x="-579" y="-120" name="RSB"/>
+  <anchor x="-199" y="380" name="TSB"/>
+  <outline>
+    <contour>
+      <point x="-648" y="-50" type="line"/>
+      <point x="-475" y="160" type="line"/>
+      <point x="79" y="160" type="line"/>
+      <point x="251" y="-50" type="line"/>
+      <point x="251" y="-18" type="line"/>
+      <point x="89" y="180" type="line"/>
+      <point x="-485" y="180" type="line"/>
+      <point x="-648" y="-18" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="C_4EBA" format="2">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="52" y="664" type="line"/>
+      <point x="298" y="695"/>
+      <point x="428" y="735"/>
+      <point x="490" y="818" type="curve"/>
+      <point x="494" y="818" type="line"/>
+      <point x="555" y="735"/>
+      <point x="694" y="695"/>
+      <point x="948" y="664" type="curve"/>
+      <point x="952" y="682" type="line"/>
+      <point x="700" y="709"/>
+      <point x="564" y="754"/>
+      <point x="501" y="830" type="curve"/>
+      <point x="483" y="830" type="line"/>
+      <point x="419" y="754"/>
+      <point x="293" y="709"/>
+      <point x="48" y="682" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

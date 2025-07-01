@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni3127.vert" format="2">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="493" y="-19" type="line"/>
+      <point x="512" y="-19" type="line"/>
+      <point x="511" y="783" type="line"/>
+      <point x="492" y="783" type="line"/>
+    </contour>
+  </outline>
+</glyph>

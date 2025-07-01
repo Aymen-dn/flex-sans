@@ -1,0 +1,120 @@
+lookup var_4E4B_flat_na { # 之
+sub uni4E4B by uni4E4B.var1;	# 之
+sub uni4E4F by uni4E4F.var1;	# 乏
+sub uni6CDB by uni6CDB.var1;	# 泛
+sub uni7728 by uni7728.var1;	# 眨
+sub uni782D by uni782D.var1;	# 砭
+sub uni7A86 by uni7A86.var1;	# 窆
+sub uni829D by uni829D.var1;	# 芝
+sub uni8CB6 by uni8CB6.var1;	# 貶
+sub uni8D2C by uni8D2C.var1;	# 贬
+} var_4E4B_flat_na;
+
+lookup var_51F5_no_feet { # 凵
+sub uni4ED9 by uni4ED9.var1;	# 仙
+sub uni51F5 by uni51F5.var1;	# 凵
+sub uni51F6 by uni51F6.var1;	# 凶
+sub uni51FA by uni51FA.var1;	# 出
+sub uni51FB by uni51FB.var1;	# 击
+sub uni51FC by uni51FC.var1;	# 凼
+sub uni51FD by uni51FD.var1;	# 函
+sub uni5484 by uni5484.var1;	# 咄
+sub uni5A73 by uni5A73.var1;	# 婳
+sub uni5BC6 by uni5BC6.var1;	# 密
+sub uni5C6E by uni5C6E.var1;	# 屮
+sub uni5C71 by uni5C71.var1;	# 山
+sub uni5C7E by uni5C7E.var1;	# 屾
+sub uni5CB1 by uni5CB1.var1;	# 岱
+sub uni5CB3 by uni5CB3.var1;	# 岳
+sub uni5CE6 by uni5CE6.var1;	# 峦
+sub uni5E7D by uni5E7D.var1;	# 幽
+sub uni5FAD by uni5FAD.var1;	# 徭
+sub uni62D9 by uni62D9.var1;	# 拙
+sub uni6C55 by uni6C55.var1;	# 汕
+sub uni707F by uni707F.var1;	# 灿
+sub uni753B by uni753B.var1;	# 画
+sub uni7840 by uni7840.var1;	# 础
+sub uni79C8 by uni79C8.var1;	# 秈
+sub uni7C7C by uni7C7C.var1;	# 籼
+sub uni7F36 by uni7F36.var1;	# 缶
+sub uni8222 by uni8222.var1;	# 舢
+sub uni8A15 by uni8A15.var1;	# 訕
+sub uni8B20 by uni8B20.var1;	# 謠
+sub uni8BAA by uni8BAA.var1;	# 讪
+sub uni8C23 by uni8C23.var1;	# 谣
+sub uni9646 by uni9646.var1;	# 陆
+sub uni9EDC by uni9EDC.var1;	# 黜
+sub uni9F7F by uni9F7F.var1;	# 齿
+} var_51F5_no_feet;
+
+lookup var_5165_rounded_ru { # 入
+sub uni5165 by uni5165.var1;	# 入
+sub uni5167 by uni5167.var1;	# 內
+sub uni5169 by uni5169.var1;	# 兩
+sub uni5436 by uni5436.var1;	# 吶
+sub uni6C46 by uni6C46.var1;	# 汆
+sub uni7C74 by uni7C74.var1;	# 籴
+sub uni7CF4 by uni7CF4.var1;	# 糴
+sub uni808F by uni808F.var1;	# 肏
+} var_5165_rounded_ru;
+
+lookup var_jp_style_x { # 㐅
+sub uni51F6 by uni51F6.var2;	# 凶
+sub uni7F51 by uni7F51.var2;	# 网
+sub uni9157 by uni9157.var2;	# 酗
+} var_jp_style_x;
+
+lookup var_double_na { # 不避捺
+sub uni7FF1 by uni7FF1.var2;	# 翱
+sub uni8D91 by uni8D91.var2;	# 趑
+sub uni6223 by uni6223.var2;	# 戣
+sub uni63C6 by uni63C6.var2;	# 揆
+sub uni668C by uni668C.var2;	# 暌
+sub uni7678 by uni7678.var2;	# 癸
+sub uni777D by uni777D.var2;	# 睽
+sub uni8475 by uni8475.var2;	# 葵
+sub uni8FBE by uni8FBE.var2;	# 达
+sub uni9001 by uni9001.var2;	# 送
+sub uni95CB by uni95CB.var2;	# 闋
+sub uni9F15 by uni9F15.var2;	# 鼕
+} var_double_na;
+
+feature ss11 {
+    featureNames {
+        name "Flat bottom 之";
+        name 3 1 0x0804 "扁捺之";
+    };
+    lookup var_4E4B_flat_na;
+} ss11;
+
+feature ss12 {
+    featureNames {
+        name "No feet 凵";
+        name 3 1 0x0804 "无脚凵";
+    };
+    lookup var_51F5_no_feet;
+} ss12;
+
+feature ss13 {
+    featureNames {
+        name "Rounded top 入";
+        name 3 1 0x0804 "圆头入";
+    };
+    lookup var_5165_rounded_ru;
+} ss13;
+
+feature ss14 {
+    featureNames {
+        name "Japanese style 㐅";
+        name 3 1 0x0804 "日式㐅";
+    };
+    lookup var_jp_style_x;
+} ss14;
+
+feature ss15 {
+    featureNames {
+        name "Double throw strokes";
+        name 3 1 0x0804 "不避捺";
+    };
+    lookup var_double_na;
+} ss15;

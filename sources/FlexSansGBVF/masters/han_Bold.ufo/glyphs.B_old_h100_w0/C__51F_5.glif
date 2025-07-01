@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="C_51F5" format="2">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="245" y="-72" type="line"/>
+      <point x="301" y="-72"/>
+      <point x="325" y="-54"/>
+      <point x="325" y="-8" type="curve"/>
+      <point x="335" y="-8" type="line"/>
+      <point x="335" y="-77" type="line"/>
+      <point x="469" y="-77" type="line"/>
+      <point x="469" y="809" type="line"/>
+      <point x="335" y="809" type="line"/>
+      <point x="335" y="52" type="line"/>
+      <point x="194" y="52" type="line"/>
+      <point x="194" y="809" type="line"/>
+      <point x="60" y="809" type="line"/>
+      <point x="60" y="-72" type="line"/>
+    </contour>
+  </outline>
+</glyph>
