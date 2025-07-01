@@ -1,0 +1,14 @@
+# build sequence
+gftools
+fontmake >= 3.8
+ufomerge
+
+# modify lib with fontTools
+lxml
+
+# export RCJK to UFO
+fontra @ git+https://github.com/googlefonts/fontra
+fontra-rcjk @ git+https://github.com/googlefonts/fontra-rcjk
+
+# special fix for ufo2ft
+ufo2ft @ git+https://github.com/NightFurySL2001/ufo2ft@patch-multilingual-name

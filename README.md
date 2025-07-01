@@ -15,11 +15,16 @@ More details about this project can be viewed on [maoken.com](https://maoken.com
 本计划目前只完成 GB 版的修改工作。以下列出各版本的工作计划及差异：  
 This project has only completed modifications for the GB version. Below lists the plan and differences for various versions:
 
-* GB（国标）：尽可能贴近中国国家标准字形，但部分笔形保留 Plex 独特的油墨陷阱设计而不追求笔画正确。
-  As close as possible to the China national standard glyphs, but some strokes retain Plex’s unique ink trap design instead of the correct stroke.
+* GB（国标）：保留 Plex JP/TC 独特风格的油墨陷阱设计（即便与中国国家规范字形冲突），其余完全符合中国国家规范字形。  
+  Retain the inktrap style design that are in Plex JP/TC even if it deviates from China standard form, but following the standard form for the rest of characters.
 
 * SC（简中）：保留 Plex JP/TC 中原有的印刷字形风格，但贴近简体中文日常使用字形。  
   Retain traditional printing stroke designs that are in Plex JP/TC but closer to what SC users see daily.
+
+## 下载 Download
+
+请前往 [发布页](https://github.com/maoken-fonts/flex-sans/releases) 下载械黑的最新版本。  
+Please visit [Release page](https://github.com/maoken-fonts/flex-sans/releases) to download the latest version of Flex Sans.
 
 ## 授权 Licensing 授權
 
@@ -51,8 +56,8 @@ Modify the font into other fonts, but the modified font must be also released un
 本字体制作流程分两部分：非汉部分（提供字体信息、西文、标点符号、OpenType特性等）及中文部分（提供汉字和异体）。非汉部分使用 FontLab 8 制作，打开 `sources/Flex Sans GB VF latin.vfc` 后导出 "DesignSpace + UFO"（根据家族子文件夹）。中文部分使用 Fontra 共享服务，导出格式为 `.rcjk`，需后续转换成 UFO 文件。两者导出后运行 `./sources/build.ps1` 即可构建完整字体。  
 The workflow for this fonts is separated into two parts: non-Chinese (providing font information, LCG, punctuations, OpenType features, etc.) and Chinese (Chinese characters with variants). Non-Chinese part is made in FontLab 8, which can be exported from `sources/Flex Sans GB VF latin.vfc` with "DesignSpace + UFO" (subfolder by family). Chinese part is made with collaborative Fontra service, and exports `.rcjk` file that require conversion to UFO. The build can be done by running `./sources/build.ps1` after exporting both fonts.
 
-请安装 Python 后安装 `requirements.txt` 里面的依赖。以下列出特殊需要的版本：  
-After installing Python, install the dependencies listed in `requirements.txt`. Special required versions are listed below:
+请安装 Python 后运行 `pip install -r requirements.txt` 安装里面的依赖。以下列出特殊需要的版本：  
+After installing Python, install the dependencies listed with `pip install -r requirements.txt`. Special required versions are listed below:
 
 * ufo2ft（ https://github.com/NightFurySL2001/ufo2ft/tree/patch-multilingual-name ）: 特殊修改以构建多语言名称 modified to export multilingual names
 * [fontra](https://github.com/googlefonts/fontra) & [fontra-rjk](https://github.com/googlefonts/fontra-rcjk)：从 `.rcjk` 导出 `.ufo` exports `.ufo` out of `.rcjk`
@@ -63,8 +68,10 @@ After installing Python, install the dependencies listed in `requirements.txt`. 
 Special thanks to the following team members and supporters:
 
 - **字形修改 | Glyph Modifications**：Lakejason0（湖 远星）、Luke036（Scott0107000）、ZERO子、orj
-- **难字调整 | Difficult Glyph Adjustments**：酣醒、Zonz、夜煞之乐（NightFurySL2001）
-- **字形优化 | Glyph Optimization**：躁动（Tsao Tung）、绵云饴里
-- **文案提供 | Documentation**：躁动（Tsao Tung）、Zonz、Lakejason0（湖 远星）
-- **服务器支持 | Server Support**：猫啃网、夜煞之乐（NightFurySL2001）
-- **IBM Plex 开源 | IBM Plex Open Source**：IBM
+- **难字调整 | Difficult Glyph Adjustments**：酣醒、Zonz、夜煞之乐（NightFurySL2001）、綿雲飴里（MY1L）
+- **字形优化 | Glyph Optimization**：躁动（Tsao Tung）、綿雲飴里
+- **字形实验 | Glyph Experimentation**：不务正业的小鸡、綿雲飴里
+- **文案提供 | Documentation**：躁动、Zonz、Lakejason0
+- **服务器支持 | Server Support**：猫啃网、夜煞之乐
+- [**Fontra**](https://fontra.xyz)：Black[Foundary]
+- [**IBM Plex**](https://github.com/ibm/plex)：IBM
