@@ -1,5 +1,5 @@
-版权 2025 械黑计划小组（https://gitee.com/NightFurySL2001/flex-sc）
-版权 2020 IBM Corp.，预留字体名称“Plex”
+版权 © 2025 械黑计划小组（https://gitee.com/NightFurySL2001/flex-sc）
+版权 © 2017 IBM Corp.，保留字体名称“Plex”
 
 译者按
 《SIL开源字型授权》由SIL国际制定，初版于2005年发布，如今已是诸多开源字

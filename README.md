@@ -4,11 +4,11 @@
 
 ## 目标 Target
 
-IBM Plex 是 IBM 公司于 2017 年发布的开源字体项目，最初预告会制作相应的 CJK（中日韩）字体，但经历多次延期，直到 2021 年才发布日文版、2024 年发布繁体版延续了西文部分的独特设计风格。然而，简体版（IBM Plex Sans SC）却因大量不必要的修改和设计问题备受批评。2025 年 4 月，IBM 发布了 Plex 的字体源代码。我们借此机会修复 IBM Plex Sans SC 的问题，并制作了可变字体版本，命名为 **械黑**。   
-IBM Plex is an open-source font project released by IBM in 2017. Initially, it was announced that corresponding CJK (Chinese, Japanese, Korean) fonts would be created, but after multiple delays, the Japanese version was not released until 2021. The Traditional Chinese version released in 2024 continued the unique design style of the Latin part. However, the Simplified Chinese version (IBM Plex Sans SC) faced heavy criticism due to numerous unnecessary modifications and design issues. In April 2025, IBM released the source code for Plex fonts. We took this opportunity to address the issues in IBM Plex Sans SC and created a variable font version with Chinese characters, which is named **Flex Sans**.
+IBM Plex 是 IBM 公司于 2017 年发布的开源字体项目，最初预告会制作相应的 CJK（中日韩）字体，但经历多次延期，直到 2021 年才发布日文版、2024 年发布繁体版延续了西文部分的独特设计风格。然而，简体版（IBM Plex Sans SC）却因大量不必要的修改和设计问题备受批评。   
+IBM Plex is an open-source font project released by IBM in 2017. Initially, it was announced that corresponding CJK (Chinese, Japanese, Korean) fonts would be created, but after multiple delays, the Japanese version was not released until 2021. The Traditional Chinese version released in 2024 continued the unique design style of the Latin part. However, the Simplified Chinese version (IBM Plex Sans SC) faced heavy criticism due to numerous unnecessary modifications and design issues. 
 
-更详细的资料可见[猫啃网](https://maoken.com/freefonts/26125.html)：https://maoken.com/freefonts/26125.html 。  
-More details about this project can be viewed on [maoken.com](https://maoken.com/freefonts/26125.html): https://maoken.com/freefonts/26014.html .
+2025 年 4 月，IBM 发布了 Plex 的字体源代码。我们借此机会修复 IBM Plex Sans SC 的问题，并制作了可变字体版本，命名为 **械黑**。更详细的资料可见[猫啃网](https://maoken.com/freefonts/26125.html)：https://maoken.com/freefonts/26125.html 。  
+In April 2025, IBM released the source code for IBM Plex fonts. We took this opportunity to address the issues in IBM Plex Sans SC and created a variable font version with Chinese characters, which is named **Flex Sans**. More details about this project can be viewed on [maoken.com](https://maoken.com/freefonts/26125.html): https://maoken.com/freefonts/26125.html .
 
 ## 版本差异 Version differences
 
