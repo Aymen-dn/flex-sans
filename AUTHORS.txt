@@ -5,4 +5,4 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Flex Sans team <nfsl-fonts@outlook.com>
+Flex Sans Project team <nfsl-fonts@outlook.com>
